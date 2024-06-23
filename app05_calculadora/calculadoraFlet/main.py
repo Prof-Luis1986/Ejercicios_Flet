@@ -83,7 +83,7 @@ def main(page:ft.Page):
         page.update()
 
 
-
+    #Se crean los botones de la aplicación
     btnSuma=ft.ElevatedButton(text="+",on_click=on_calc_suma)
     btnResta=ft.ElevatedButton(text="-",on_click=on_calc_resta)
     btnMult=ft.ElevatedButton(text="X",on_click=on_calc_mult)
